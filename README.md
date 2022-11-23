@@ -1,1 +1,1 @@
-# Pr-ctica-6
+# Practica-6
