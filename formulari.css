@@ -1,0 +1,56 @@
+h1
+/*header principal dels 2 documents formulari.html i resultat.html*/
+{
+    font-weight: bold;
+    color: orange;
+    text-align: center;
+}
+
+h5
+/*header secundari*/
+{
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;
+
+}
+
+.unoydos
+/*Class per a poder cambiar només l'amplada dels inputs nom i cognom*/
+{
+    width: 200px;
+    
+}
+
+.edat
+/*Class per a poder cambiar només l'amplada i el marge de l'input edat*/
+{
+    width: 300px;
+    margin-top: 10px;
+}
+
+
+
+form
+/*Centrar tot el formulari*/
+{
+  text-align: center;
+}
+
+p
+/*Deixar marge per a la p*/
+{
+    margin-bottom: 3px;
+}
+
+h4
+/*Quitar el bold al header 4*/
+{
+    font-weight:unset;
+}
+
+.submit
+/*Class per a poder cambiar només el marge de l'input submit*/
+{
+    margin-top: 10px;
+}

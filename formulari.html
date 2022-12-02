@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--HTML per a formulari-->
+<html>
+        <head>
+                <!--Hem adjuntat el document d'estils css-->
+                <title>Práctica 6</title>
+                <link rel="stylesheet" href="formulari.css">
+        </head>
+        <body>
+                <!--Formulari sencer amb headings-->
+
+                <h1>El meu primer formulari</h1>
+                <h5>Les teves dades personals</h5>
+        <!--El formulari ens enviará a resultat.html-->
+        <form action="resultat.html">
+                <!--inputs checkbox per a nom, cognom i edat-->
+                <label for="nom">Nom</label>
+                <input class="unoydos" type="text" name="nom">
+
+                <label for="cognom">Cognom</label>
+                <input class="unoydos" type="text" name="cognom">
+
+                <br>
+
+                <label for="edat">Edat</label>
+                <input class="edat" type="number" name="edat">
+
+                <h5>Marca els lleguatges de programació que més t'agraden</h5>
+                <!--Inputs checkbox per als llenguatges de programació-->
+                <input type="checkbox" id="llenguatge1" name="escull_llenguatge" value="html" checked>
+                <label for="llenguatge1">HMTL</label> <br>
+
+                <input type="checkbox" id="llenguatge2" name="escull_llenguatge">
+                <label for="llenguatge2">CSS</label> <br>
+
+                <input type="checkbox" id="llenguatge3" name="escull_llenguatge">
+                <label for="llenguatge3">XML</label>
+
+                <h5>Selecciona el cicle formatiu que vols cursar:</h5>
+                <p>Selecciona el cicle:</p>
+                <!--Inputs radi per als cicles formatius-->
+                <input type="radio" id="cicle1" name="escull_cicle" checked>
+                <label for="cicle1">ASIX</label> <br>
+
+                <input type="radio" id="cicle2" name="escull_cicle">
+                <label for="cicle2">DAM</label> <br>
+
+                <input type="radio" id="cicle3" name="escull_cicle">
+                <label for="cicle3">DAW</label> <br><br>
+                <!--Input de selecció per els cursos-->
+                <label for="curs">Selecciona el curs:</label>
+                <select>
+                        <option>Primer</option>
+                        <option>Segon</option>
+                </select>
+
+                <h4>Observacions:</h4>
+                <!--Quadre de text i botó per enviar el formulari -->
+                <textarea rows="10" cols="50">Escriu el teu missatge</textarea><br>
+                <input onclick="document.location='resultat.html'" class="submit" type="submit" value="Submit" href="resultat.html">
+                
+
+        </form>
+               
+                
+        </body>
+
+
+
+
+
+</html>
